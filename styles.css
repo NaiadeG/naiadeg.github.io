@@ -1,0 +1,152 @@
+/*Naiade Gasparetti 6/17/2019*/
+
+body { 
+		color: #393E46;
+	  	background-color:#FFFAFA;
+	  	font-family: "Letterpress", serif;
+	  	font-size: 14px;
+	  	line-height: 20px;
+	  	background-repeat: no-repeat;
+	  	background-size: 100%;
+	  }
+
+h2 {
+   text-align: center;
+}
+.nav1{
+	margin-left: 5em;
+	margin-bottom: 1em;
+}
+.navbar {
+    font-family: "Letterpress", serif;
+}
+
+#main {	
+		border: 2px solid #0003;
+	    border-radius: 8px;
+		background-color: #E5E5E5;
+		text-align: justify;
+		padding: .5%;
+		color:#393E46;
+}
+
+#main-2 {
+		border: 2px solid #0003;
+		border-radius: 5px;	
+		background-color: #EEEEEE;
+		text-align: center;
+		padding: 3%;
+		color: #393E46;
+		font-size: 22px;
+}
+
+#hobbies {
+	    border: 2px solid #0003;
+		border-radius: 8px;
+		text-align: left;
+		padding: .5%;
+		background-color: #EEEEEE;
+}
+ 	 	footer{
+    	 		background-color: #eeeeee;
+    	 		color: black;
+    	 	}
+    	 	    	 	.img{
+    	 		padding: .5em;
+    	 		background-color: black;
+    	 	}
+.wrapper{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 80%;
+	margin: auto;
+	padding: 2%;
+
+}
+
+.wrapper h1 {
+	font-size: 3vw;
+	margin: 0 0 0 2%;
+}
+	
+ul {	
+		list-style-type: disc;
+}
+
+.container {
+  background-color: #EEEEEE;
+}
+
+footer {
+		font-size: 0.75em;
+		text-align: center;
+		clear: both;
+		color: white;
+}
+
+.h1{
+      font-size: 4em;
+}
+figure {
+	text-align: center;
+}
+.logo {
+	width: 200px;
+	margin: auto;
+}
+
+@media screen and (max-width: 811px){
+.h1{
+       font-size: 2.5em;
+ }
+.wrapper a {
+	   font-size: 3vw;
+}
+.wrapper{
+		display: grid;
+		grid-gap: 10px;
+			
+		grid-template-columns: 1fr 1fr;
+			
+		width: 80%;
+		margin: auto;
+		padding: 2%;
+
+        }
+ }
+ @media screen and (max-width: 527px){
+        	.h1{
+        		font-size: 1.5em;
+        	}
+        	.wrapper{
+				display: grid;
+				grid-gap: 10px;
+		        grid-template-columns: 1fr;
+			    width: 80%;
+				margin: auto;
+				padding: 2%;
+
+}
+        }
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15{
+ display:none;
+ background-color: #EEEEEE;
+ border-radius: 10px;
+ text-align: center;
+}
+
+#heading1, #heading2, #heading3, #heading4, #heading5, #heading6, #heading7, #heading8, #heading9, #heading10, #heading11, #heading12, #heading13. #heading14, #heading15{
+   font-size: 4em;
+  background-color: #EEEEEE;
+
+}
+.h1:hover{
+	color:pink;
+	cursor: pointer;
+}
+.h1  {
+	 background-color: #EEEEEE;
+	 border-radius: 10px;
+	 opacity: 85%;
+}
